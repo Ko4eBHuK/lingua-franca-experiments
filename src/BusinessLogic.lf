@@ -1,0 +1,18 @@
+target C
+
+reactor Toggler {
+    input inPort: int
+
+    reaction(inPort) {=
+        printf("Toggler do staff triggered.\n");
+    =}
+}
+
+reactor Printer {
+    input inPort: int
+
+    reaction(inPort) {=
+        printf("Printer do staff, inPort=%d.\n", inPort->value);
+        // TODO - add time characteristicsto print
+    =}
+}

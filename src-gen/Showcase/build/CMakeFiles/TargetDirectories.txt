@@ -1,0 +1,14 @@
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/CMakeFiles/Showcase.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/CMakeFiles/edit_cache.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/CMakeFiles/rebuild_cache.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/CMakeFiles/list_install_components.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/CMakeFiles/install.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/CMakeFiles/install/local.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/CMakeFiles/install/strip.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/core/CMakeFiles/core.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/core/CMakeFiles/edit_cache.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/core/CMakeFiles/rebuild_cache.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/core/CMakeFiles/list_install_components.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/core/CMakeFiles/install.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/core/CMakeFiles/install/local.dir
+/home/okladnikov/Univer/nir/LFProj/src-gen/Showcase/build/core/CMakeFiles/install/strip.dir

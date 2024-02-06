@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/Showcase.dir/lib/schedule.c.o CMakeFiles/Showcase.dir/_showcase_main.c.o CMakeFiles/Showcase.dir/_timerhalfsec.c.o CMakeFiles/Showcase.dir/_toggler.c.o CMakeFiles/Showcase.dir/_printer.c.o CMakeFiles/Showcase.dir/Showcase.c.o -o Showcase  -lm core/libcore.a 

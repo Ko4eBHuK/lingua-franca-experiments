@@ -1,0 +1,42 @@
+target C
+
+import TimerHalfSec from "TimeReactor.lf"
+import Toggler from "BusinessLogic.lf"
+import Printer from "BusinessLogic.lf"
+
+/*
+reactor TimerHalfSec(offset: time = 0) {
+    state count: int = 0
+    output outPort: int
+    timer t(offset, 500 msec)
+
+    reaction(t) -> outPort {=
+        lf_set(outPort, self->count++);
+    =}
+}
+
+reactor Toggler {
+    input inPort: int
+
+    reaction(inPort) {=
+        printf("Toggler do staff triggered.\n");
+    =}
+}
+
+reactor Printer {
+    input inPort: int
+
+    reaction(inPort) {=
+        printf("Printer do staff, inPort=%d.\n", inPort->value);
+    =}
+}
+*/
+
+main reactor {
+    timerHalfSec = new TimerHalfSec()
+    toggler = new Toggler()
+    printer = new Printer()
+
+    timerHalfSec.outPort -> toggler.inPort
+    timerHalfSec.outPort -> printer.inPort
+}

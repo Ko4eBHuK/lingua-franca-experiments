@@ -1,0 +1,11 @@
+target C
+
+reactor TimerHalfSec(offset: time = 0) {
+    state count: int = 0
+    output outPort: int
+    timer t(offset, 500 msec)
+
+    reaction(t) -> outPort {=
+        lf_set(outPort, self->count++);
+    =}
+}
